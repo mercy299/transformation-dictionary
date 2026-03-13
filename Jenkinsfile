@@ -2,7 +2,8 @@ pipeline {
     agent any
 
     environment {
-        SONARQUBE = 'sonarqube-server'  
+        SONARQUBE = 'sonarqube-server'
+        REGISTRY = 'ghcr.io/mercy299/transformation-dictionary'
     }
 
     stages {
