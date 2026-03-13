@@ -5,6 +5,10 @@ pipeline {
         SONARQUBE = 'sonarqube-server'
         REGISTRY = 'ghcr.io/mercy299/transformation-dictionary'
     }
+    
+    tools {
+        nodejs "Node"   
+        }
 
     stages {
 
