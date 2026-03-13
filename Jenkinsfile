@@ -4,6 +4,7 @@ pipeline {
     environment {
         SONARQUBE = 'sonarqube-server'
         REGISTRY = 'ghcr.io/mercy299/transformation-dictionary'
+        NPM_PROXY = "${NPM_PROXY}"
     }
     
     tools {
